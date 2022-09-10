@@ -3,10 +3,16 @@
 
 import random
 
-numSet = set();
+numSet1 = set();
+numSet2 = set();
+numSet3 = set();
 
-for i in range(3):
-    numSet.add(random.randrange(1,100,1))
+for i in range(5):
+    numSet1.add(random.randrange(0,100,1))
+    numSet2.add(random.randrange(0,100,1))
+    numSet3.add(random.randrange(0,100,1))
 
 
-print(numSet)
+print(numSet1)
+print(numSet2)
+print(numSet3)
